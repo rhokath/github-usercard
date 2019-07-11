@@ -105,6 +105,7 @@ function createCard(obj){
   locationInfo.textContent = obj.data.location
   profileInfo.textContent = "Profile:"
   address.href = obj.data.html_url 
+  address.textContent = "link to profile"
   followerInfo.textContent = `Followers: ${obj.data.followers}`
   followingInfo.textContent = `Following: ${obj.data.following}`
   bio.textContent = `Bio: ${obj.data.bio}`
